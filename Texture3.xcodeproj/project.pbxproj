@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Texture3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Texture3AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		1F92F5EC0FDFF83200548BE8 /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F92F5EA0FDFF83200548BE8 /* GLViewController.m */; };
+		1F99BC41116CBBE800AD7B28 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F99BC40116CBBE800AD7B28 /* MainWindow-iPad.xib */; };
+		1FF404F30FF2AC4B00D17C20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF404F20FF2AC4B00D17C20 /* CoreGraphics.framework */; };
+		1FFE82450FF2AB450003974F /* OpenGLTexture3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFE82430FF2AB450003974F /* OpenGLTexture3D.m */; };
+		2304484F1268E35B001211CE /* RCNSDataCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2304484E1268E35B001211CE /* RCNSDataCategory.m */; };
+		230448731268E7F5001211CE /* RCNSStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 230448721268E7F5001211CE /* RCNSStringCategory.m */; };
+		23401A9B1295C5E1007FE5EB /* mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23401A9A1295C5E1007FE5EB /* mars.jpg */; };
+		23401AA51295D182007FE5EB /* jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23401AA41295D182007FE5EB /* jupiter.jpg */; };
+		2351EDBA128C981500449BB9 /* SunTexture_2048.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2351EDB9128C981500449BB9 /* SunTexture_2048.jpg */; };
+		2351EE4B128CA2BD00449BB9 /* mercurymapthumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2351EE4A128CA2BD00449BB9 /* mercurymapthumb.jpg */; };
+		2351EE5D128CA6A300449BB9 /* venusmapthumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2351EE5C128CA6A300449BB9 /* venusmapthumb.jpg */; };
+		2351EF14128CB11100449BB9 /* moonmapthumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2351EF13128CB11100449BB9 /* moonmapthumb.jpg */; };
+		236580BE127F70BB0057FF71 /* RCCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 236580BD127F70BB0057FF71 /* RCCamera.m */; };
+		23A23D7D1269253C00CA7549 /* RCCelestialObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A23D7C1269253C00CA7549 /* RCCelestialObject.m */; };
+		23AED29C127A5013004BAAAF /* RCOpenGLTexture3DCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AED29B127A5013004BAAAF /* RCOpenGLTexture3DCategory.m */; };
+		23D48B35127B5B9200FE0CCC /* RCTestCelestialObjectCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D48B34127B5B9200FE0CCC /* RCTestCelestialObjectCategory.m */; };
+		23EAE6C61256C8200077A1B9 /* earthmapthumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23EAE6C51256C8200077A1B9 /* earthmapthumb.jpg */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28FD14FE0DC6FC130079059D /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* GLView.m */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Texture3AppDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Texture3AppDelegate.h; path = Classes/Texture3AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		1D3623250D0F684500981E51 /* Texture3AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Texture3AppDelegate.m; path = Classes/Texture3AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		1D6058910D05DD3D006BFB54 /* Texture3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Texture3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F92F5E80FDFF83200548BE8 /* ConstantsAndMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConstantsAndMacros.h; path = Classes/ConstantsAndMacros.h; sourceTree = "<group>"; };
+		1F92F5E90FDFF83200548BE8 /* GLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLViewController.h; path = Classes/GLViewController.h; sourceTree = SOURCE_ROOT; };
+		1F92F5EA0FDFF83200548BE8 /* GLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLViewController.m; path = Classes/GLViewController.m; sourceTree = SOURCE_ROOT; };
+		1F92F5EB0FDFF83200548BE8 /* OpenGLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLCommon.h; path = Classes/OpenGLCommon.h; sourceTree = "<group>"; };
+		1F99BC40116CBBE800AD7B28 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		1FF404F20FF2AC4B00D17C20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FFE82430FF2AB450003974F /* OpenGLTexture3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLTexture3D.m; sourceTree = "<group>"; };
+		1FFE82440FF2AB450003974F /* OpenGLTexture3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLTexture3D.h; sourceTree = "<group>"; };
+		2304484D1268E35B001211CE /* RCNSDataCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCNSDataCategory.h; path = Classes/RCNSDataCategory.h; sourceTree = "<group>"; };
+		2304484E1268E35B001211CE /* RCNSDataCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCNSDataCategory.m; path = Classes/RCNSDataCategory.m; sourceTree = "<group>"; };
+		230448711268E7F5001211CE /* RCNSStringCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCNSStringCategory.h; sourceTree = "<group>"; };
+		230448721268E7F5001211CE /* RCNSStringCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCNSStringCategory.m; sourceTree = "<group>"; };
+		23401A991295C5A5007FE5EB /* RCMars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCMars.h; path = /Users/rcrebs/Dropbox/RCPlanets/Mars/RCMars.h; sourceTree = "<absolute>"; };
+		23401A9A1295C5E1007FE5EB /* mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpg; sourceTree = "<group>"; };
+		23401AA31295D118007FE5EB /* RCJupiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCJupiter.h; sourceTree = "<group>"; };
+		23401AA41295D182007FE5EB /* jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter.jpg; sourceTree = "<group>"; };
+		2351EDB9128C981500449BB9 /* SunTexture_2048.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SunTexture_2048.jpg; sourceTree = "<group>"; };
+		2351EDCE128C9A1200449BB9 /* RCSun2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSun2.h; sourceTree = "<group>"; };
+		2351EE2B128CA08E00449BB9 /* RCMercury.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMercury.h; sourceTree = "<group>"; };
+		2351EE4A128CA2BD00449BB9 /* mercurymapthumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mercurymapthumb.jpg; sourceTree = "<group>"; };
+		2351EE5B128CA66900449BB9 /* RCVenus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCVenus.h; sourceTree = "<group>"; };
+		2351EE5C128CA6A300449BB9 /* venusmapthumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venusmapthumb.jpg; sourceTree = "<group>"; };
+		2351EEBD128CAAB000449BB9 /* RCEarth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCEarth.h; sourceTree = "<group>"; };
+		2351EF12128CB0FD00449BB9 /* RCeMoon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCeMoon.h; sourceTree = "<group>"; };
+		2351EF13128CB11100449BB9 /* moonmapthumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moonmapthumb.jpg; sourceTree = "<group>"; };
+		236580BC127F70BB0057FF71 /* RCCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCamera.h; sourceTree = "<group>"; };
+		236580BD127F70BB0057FF71 /* RCCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCamera.m; sourceTree = "<group>"; };
+		23A23D7B1269253C00CA7549 /* RCCelestialObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCCelestialObject.h; path = Classes/RCCelestialObject.h; sourceTree = "<group>"; };
+		23A23D7C1269253C00CA7549 /* RCCelestialObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCCelestialObject.m; path = Classes/RCCelestialObject.m; sourceTree = "<group>"; };
+		23AED29A127A5013004BAAAF /* RCOpenGLTexture3DCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCOpenGLTexture3DCategory.h; sourceTree = "<group>"; };
+		23AED29B127A5013004BAAAF /* RCOpenGLTexture3DCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCOpenGLTexture3DCategory.m; sourceTree = "<group>"; };
+		23D48B33127B5B9200FE0CCC /* RCTestCelestialObjectCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTestCelestialObjectCategory.h; sourceTree = "<group>"; };
+		23D48B34127B5B9200FE0CCC /* RCTestCelestialObjectCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTestCelestialObjectCategory.m; sourceTree = "<group>"; };
+		23DDAFB91256BCDE005BD497 /* RCPlanetVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCPlanetVertex.h; path = Classes/RCPlanetVertex.h; sourceTree = "<group>"; };
+		23EAE6C51256C8200077A1B9 /* earthmapthumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earthmapthumb.jpg; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28FD14FC0DC6FC130079059D /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLView.h; path = Classes/GLView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLView.m; path = Classes/GLView.m; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Texture3_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture3_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Texture3-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Texture3-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				1FF404F30FF2AC4B00D17C20 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* Texture3AppDelegate.h */,
+				1D3623250D0F684500981E51 /* Texture3AppDelegate.m */,
+				1FFE82430FF2AB450003974F /* OpenGLTexture3D.m */,
+				1FFE82440FF2AB450003974F /* OpenGLTexture3D.h */,
+				1F92F5E90FDFF83200548BE8 /* GLViewController.h */,
+				1F92F5EA0FDFF83200548BE8 /* GLViewController.m */,
+			);
+			name = Controller;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Texture3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F99BC3D116CBBE700AD7B28 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				1F99BC40116CBBE800AD7B28 /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		230448651268E425001211CE /* MyCategories */ = {
+			isa = PBXGroup;
+			children = (
+				2304484D1268E35B001211CE /* RCNSDataCategory.h */,
+				2304484E1268E35B001211CE /* RCNSDataCategory.m */,
+				230448711268E7F5001211CE /* RCNSStringCategory.h */,
+				230448721268E7F5001211CE /* RCNSStringCategory.m */,
+				23AED29A127A5013004BAAAF /* RCOpenGLTexture3DCategory.h */,
+				23AED29B127A5013004BAAAF /* RCOpenGLTexture3DCategory.m */,
+				23D48B33127B5B9200FE0CCC /* RCTestCelestialObjectCategory.h */,
+				23D48B34127B5B9200FE0CCC /* RCTestCelestialObjectCategory.m */,
+			);
+			name = MyCategories;
+			sourceTree = "<group>";
+		};
+		230448661268E448001211CE /* PlanetStaticFiles */ = {
+			isa = PBXGroup;
+			children = (
+				23401AA31295D118007FE5EB /* RCJupiter.h */,
+				23401A991295C5A5007FE5EB /* RCMars.h */,
+				2351EF12128CB0FD00449BB9 /* RCeMoon.h */,
+				2351EEBD128CAAB000449BB9 /* RCEarth.h */,
+				2351EE5B128CA66900449BB9 /* RCVenus.h */,
+				2351EE2B128CA08E00449BB9 /* RCMercury.h */,
+				2351EDCE128C9A1200449BB9 /* RCSun2.h */,
+				23DDAFB91256BCDE005BD497 /* RCPlanetVertex.h */,
+			);
+			name = PlanetStaticFiles;
+			sourceTree = "<group>";
+		};
+		236580BB127F70A60057FF71 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				236580BC127F70BB0057FF71 /* RCCamera.h */,
+				236580BD127F70BB0057FF71 /* RCCamera.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		23A23D881269254D00CA7549 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				236580BB127F70A60057FF71 /* Camera */,
+				230448661268E448001211CE /* PlanetStaticFiles */,
+				23A23D7B1269253C00CA7549 /* RCCelestialObject.h */,
+				23A23D7C1269253C00CA7549 /* RCCelestialObject.m */,
+				1F92F5E80FDFF83200548BE8 /* ConstantsAndMacros.h */,
+				1F92F5EB0FDFF83200548BE8 /* OpenGLCommon.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		23A23DC81269364A00CA7549 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28FD14FC0DC6FC130079059D /* GLView.h */,
+				28FD14FD0DC6FC130079059D /* GLView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				23A23DC81269364A00CA7549 /* View */,
+				23A23D881269254D00CA7549 /* Models */,
+				080E96DDFE201D6D7F000001 /* Controller */,
+				230448651268E425001211CE /* MyCategories */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				1F99BC3D116CBBE700AD7B28 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Texture3_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23401AA41295D182007FE5EB /* jupiter.jpg */,
+				23401A9A1295C5E1007FE5EB /* mars.jpg */,
+				2351EF13128CB11100449BB9 /* moonmapthumb.jpg */,
+				2351EE5C128CA6A300449BB9 /* venusmapthumb.jpg */,
+				2351EE4A128CA2BD00449BB9 /* mercurymapthumb.jpg */,
+				2351EDB9128C981500449BB9 /* SunTexture_2048.jpg */,
+				23EAE6C51256C8200077A1B9 /* earthmapthumb.jpg */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Texture3-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				1FF404F20FF2AC4B00D17C20 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Texture3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Texture3" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Texture3;
+			productName = Texture3;
+			productReference = 1D6058910D05DD3D006BFB54 /* Texture3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Texture3" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Texture3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				1F99BC41116CBBE800AD7B28 /* MainWindow-iPad.xib in Resources */,
+				23EAE6C61256C8200077A1B9 /* earthmapthumb.jpg in Resources */,
+				2351EDBA128C981500449BB9 /* SunTexture_2048.jpg in Resources */,
+				2351EE4B128CA2BD00449BB9 /* mercurymapthumb.jpg in Resources */,
+				2351EE5D128CA6A300449BB9 /* venusmapthumb.jpg in Resources */,
+				2351EF14128CB11100449BB9 /* moonmapthumb.jpg in Resources */,
+				23401A9B1295C5E1007FE5EB /* mars.jpg in Resources */,
+				23401AA51295D182007FE5EB /* jupiter.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Texture3AppDelegate.m in Sources */,
+				28FD14FE0DC6FC130079059D /* GLView.m in Sources */,
+				1F92F5EC0FDFF83200548BE8 /* GLViewController.m in Sources */,
+				1FFE82450FF2AB450003974F /* OpenGLTexture3D.m in Sources */,
+				2304484F1268E35B001211CE /* RCNSDataCategory.m in Sources */,
+				230448731268E7F5001211CE /* RCNSStringCategory.m in Sources */,
+				23A23D7D1269253C00CA7549 /* RCCelestialObject.m in Sources */,
+				23AED29C127A5013004BAAAF /* RCOpenGLTexture3DCategory.m in Sources */,
+				23D48B35127B5B9200FE0CCC /* RCTestCelestialObjectCategory.m in Sources */,
+				236580BE127F70BB0057FF71 /* RCCamera.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Texture3_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Texture3-Info.plist";
+				PRODUCT_NAME = Texture3;
+				SDKROOT = iphonesimulator3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Texture3_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Texture3-Info.plist";
+				PRODUCT_NAME = Texture3;
+				SDKROOT = iphoneos3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Texture3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Texture3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
