@@ -10,7 +10,7 @@
 #import "RCMercury.h"
 #import "RCVenus.h"
 #import "RCeMoon.h"
-#import "RCMars.h"
+//#import "RCMars.h"
 #import "RCJupiter.h"
 #import "RCNSDataCategory.h"
 #import "RCNSStringCategory.h"
@@ -134,7 +134,8 @@ static inline void initializeVertexMapping() {
 	arrayOfPlanetStructs[2] = (TexturedVertexData3D*) RCMercuryVertexData;
 	arrayOfPlanetStructs[3] = (TexturedVertexData3D*) RCVenusVertexData;
 	arrayOfPlanetStructs[4] = (TexturedVertexData3D*) RCeMoonVertexData;
-    arrayOfPlanetStructs[5] = (TexturedVertexData3D*) RCMarsVertexData;
+	arrayOfPlanetStructs[5] = (TexturedVertexData3D*) RCeMoonVertexData;
+    //arrayOfPlanetStructs[5] = (TexturedVertexData3D*) RCMarsVertexData;
     arrayOfPlanetStructs[6] = (TexturedVertexData3D*) RCJupiterVertexData;
 
 	// Initialize Number of Vertice for each Planet
@@ -143,7 +144,8 @@ static inline void initializeVertexMapping() {
 	numberOfVertices[2] = kRCMercuryNumberOfVertices;
 	numberOfVertices[3] = kRCVenusNumberOfVertices;
 	numberOfVertices[4] = kRCeMoonNumberOfVertices;
-    numberOfVertices[5] = kRCMarsNumberOfVertices;
+	numberOfVertices[5] = kRCeMoonNumberOfVertices;
+   // numberOfVertices[5] = kRCMarsNumberOfVertices;
     numberOfVertices[6] = kRCJupiterNumberOfVertices;
 }
 

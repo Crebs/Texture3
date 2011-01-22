@@ -343,7 +343,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "Texture3-Info.plist";
 				PRODUCT_NAME = Texture3;
-				SDKROOT = iphonesimulator3.2;
+				SDKROOT = iphoneos4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -373,7 +373,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphonesimulator3.2;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Debug;
 		};
@@ -386,7 +386,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphonesimulator3.2;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};

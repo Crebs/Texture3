@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>WRY5T9C2MW.com.yourcompany.Texture3</string>
+	<string>WRY5T9C2MW.com.appible.Texture3</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>WRY5T9C2MW.com.yourcompany.Texture3</string>
+		<string>WRY5T9C2MW.com.appible.Texture3</string>
 	</array>
 </dict>
 </plist>
