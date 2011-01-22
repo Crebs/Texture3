@@ -1,1037 +1,0 @@
-TTexture3
-v7
-r0
-t313955081.956016
-cCheck dependencies
-cCpResource build/Debug-iphoneos/Texture3.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Info.plist Texture3-Info.plist
-cCompileXIB /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/MainWindow.xib
-cCompileXIB /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Resources-iPad/MainWindow-iPad.xib
-cCpResource build/Debug-iphoneos/Texture3.app/earthmapthumb.jpg earthmapthumb.jpg
-cCpResource build/Debug-iphoneos/Texture3.app/SunTexture_2048.jpg SunTexture_2048.jpg
-cCpResource build/Debug-iphoneos/Texture3.app/mercurymapthumb.jpg mercurymapthumb.jpg
-cCpResource build/Debug-iphoneos/Texture3.app/venusmapthumb.jpg venusmapthumb.jpg
-cCpResource build/Debug-iphoneos/Texture3.app/moonmapthumb.jpg moonmapthumb.jpg
-cCpResource build/Debug-iphoneos/Texture3.app/mars.jpg mars.jpg
-cCpResource build/Debug-iphoneos/Texture3.app/jupiter.jpg jupiter.jpg
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/main.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/Texture3AppDelegate.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/Texture3AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/GLView.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/GLViewController.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/OpenGLTexture3D.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/OpenGLTexture3D.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCNSDataCategory.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCNSDataCategory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCNSStringCategory.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCNSStringCategory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCCelestialObject.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCCelestialObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCOpenGLTexture3DCategory.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCOpenGLTexture3DCategory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCTestCelestialObjectCategory.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCTestCelestialObjectCategory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCCamera.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCCamera.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture3 normal armv7
-cGenerateDSYMFile /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app.dSYM /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture3
-cProcessProductPackaging "/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/04C1D71E-4BF5-4B17-8D3C-0EBDAEEA0619.mobileprovision" /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/embedded.mobileprovision
-cTouch /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent
-cCodeSign /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
-c000000004C9CE9610000000000000110
-t1285351777
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-c000000004C06E99F00000000000001A7
-t1275521439
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-c000000004C06E99F00000000000001E5
-t1275521439
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C005A1C00000000003B4B70
-t1275091484
-s3885936
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C005A45000000000036A640
-t1275091525
-s3581504
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C005A310000000000001355
-t1275091505
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
-c000000004C005BDA000000000000094F
-t1275091930
-s2383
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
-c000000004C005BDA0000000000000A61
-t1275091930
-s2657
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
-c000000004C005BDA0000000000009369
-t1275091930
-s37737
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
-c000000004C005BDA0000000000002A42
-t1275091930
-s10818
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004C005BE9000000000003C2B0
-t1275091945
-s246448
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C005C74000000000000007D
-t1275092084
-s125
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C005D9100000000002215A0
-t1275092369
-s2233760
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C00642C000000000000098F
-t1275094060
-s2447
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0064A60000000002703220
-t1275094182
-s40907296
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/math.h
-c000000004B9F12D800000000000004F1
-t1268716248
-s1265
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
-c000000004C9CE9650000000000000110
-t1285351781
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-c000000004C578FA900000000000001E5
-t1280806825
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A51050000000000345F00
-t1280987397
-s3432192
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A52B100000000003E1EF0
-t1280987825
-s4071152
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A527F0000000000001466
-t1280987775
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
-c000000004C5A5504000000000000094F
-t1280988420
-s2383
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
-c000000004C5A55040000000000000A61
-t1280988420
-s2657
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
-c000000004C5A55040000000000009369
-t1280988420
-s37737
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
-c000000004C5A55040000000000003C4A
-t1280988420
-s15434
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004C5A5516000000000002D690
-t1280988438
-s186000
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C5A556300000000000000C4
-t1280988515
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C5A56D600000000002573D0
-t1280988886
-s2454480
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C62427000000000000009CD
-t1281507952
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C62430F0000000002EBC2B0
-t1281508111
-s49005232
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/math.h
-c000000004C57902B00000000000004F1
-t1280806955
-s1265
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004CC7DC9E0000000000000110
-t1288166558
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-c000000004CB3DFCF00000000000001A7
-t1286856655
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-c000000004CB3DFCF00000000000001E5
-t1286856655
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC10EF500000000003532B0
-t1287720693
-s3486384
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC10F4700000000003E1F20
-t1287720775
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC10F1C0000000000001466
-t1287720732
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
-c000000004CC110BE000000000000094F
-t1287721150
-s2383
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
-c000000004CC110BE0000000000000A61
-t1287721150
-s2657
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
-c000000004CC110BE0000000000009369
-t1287721150
-s37737
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
-c000000004CC110BE0000000000003C4A
-t1287721150
-s15434
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004CC110CB000000000002C650
-t1287721163
-s181840
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004CC1111C00000000000000C4
-t1287721244
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004CC1127D0000000000267530
-t1287721597
-s2520368
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC11AE60000000000000AA1
-t1287723750
-s2721
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC11B750000000000C769F0
-t1287723893
-s13068784
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
-c000000004CB3E44400000000000004F1
-t1286857796
-s1265
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/ConstantsAndMacros.h
-c000000004C9D158300000000000004F1
-t1285363075
-s1265
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLView.h
-c000000004C9D1583000000000000034B
-t1285363075
-s843
-i<UIKit/UIKit.h>
-i<OpenGLES/EAGL.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLView.m
-c000000004C9D1583000000000000117F
-t1285363075
-s4479
-i<QuartzCore/QuartzCore.h>
-i<OpenGLES/EAGLDrawable.h>
-i"GLView.h"
-i"ConstantsAndMacros.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLViewController.h
-c000000004CE5AA3100000000000004E0
-t1290119729
-s1248
-i<UIKit/UIKit.h>
-i"GLView.h"
-i"OpenGLCommon.h"
-i"OpenGLTexture3D.h"
-i"RCCelestialObject.h"
-i"Texture3AppDelegate.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLViewController.m
-c000000004CE6A19300000000000018BE
-t1290183059
-s6334
-i"GLViewController.h"
-i"ConstantsAndMacros.h"
-i"OpenGLCommon.h"
-i"RCTestCelestialObjectCategory.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/OpenGLCommon.h
-c000000004C9D15830000000000008072
-t1285363075
-s32882
-i<OpenGLES/EAGL.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<OpenGL/OpenGL.h>
-i"ConstantsAndMacros.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/OpenGLTexture3D.h
-c000000004CCA32C900000000000002D6
-t1288319689
-s726
-i<Foundation/Foundation.h>
-i<OpenGLES/EAGL.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/OpenGLTexture3D.m
-c000000004CCF43AB00000000000019AD
-t1288651691
-s6573
-i"OpenGLTexture3D.h"
-i"RCNSDataCategory.h"
-i"RCPlanetVertex.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCCelestialObject.h
-c000000004CD84AAA0000000000000615
-t1289243306
-s1557
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<OpenGLES/EAGL.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i"OpenGLCommon.h"
-i"OpenGLTexture3D.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCCelestialObject.m
-c000000004CE6A4F50000000000001425
-t1290183925
-s5157
-i"RCCelestialObject.h"
-i"GLViewController.h"
-i"RCPlanetVertex.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCNSDataCategory.h
-c000000004CB8ABFB0000000000000113
-t1287171067
-s275
-i<Foundation/Foundation.h>
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCNSDataCategory.m
-c000000004CB8B2B500000000000001E6
-t1287172789
-s486
-i"RCNSDataCategory.h"
-i"RCNSStringCategory.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCPlanetVertex.h
-c000000004CE5A52000000000000014E1
-t1290118432
-s5345
-i"RCEarth.h"
-i"RCSun2.h"
-i"RCMercury.h"
-i"RCVenus.h"
-i"RCeMoon.h"
-i"RCMars.h"
-i"RCJupiter.h"
-i"RCNSDataCategory.h"
-i"RCNSStringCategory.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/Texture3AppDelegate.h
-c000000004CD848AB0000000000000224
-t1289242795
-s548
-i<UIKit/UIKit.h>
-i"RCCamera.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/Texture3AppDelegate.m
-c000000004CD8497900000000000004CA
-t1289243001
-s1226
-i"Texture3AppDelegate.h"
-i"GLView.h"
-i"RCCamera.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/MainWindow.xib
-c000000004C9D1583000000000000562E
-t1285363075
-s22062
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCCamera.h
-c000000004CD880980000000000000534
-t1289257112
-s1332
-i<OpenGLES/EAGL.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<OpenGL/OpenGL.h>
-i<Foundation/Foundation.h>
-i"GLView.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCCamera.m
-c000000004CE5A6D1000000000000126A
-t1290118865
-s4714
-i"RCCamera.h"
-i"Texture3AppDelegate.h"
-i<math.h>
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCEarth.h
-c000000004CDC739900000000000A002C
-t1289515929
-s655404
-i"OpenGLCommon.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCJupiter.h
-c000000004CE599C400000000000A003B
-t1290115524
-s655419
-i"OpenGLCommon.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCMercury.h
-c000000004CDC693D00000000000A0024
-t1289513277
-s655396
-i"OpenGLCommon.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCNSStringCategory.h
-c000000004CCA17950000000000000128
-t1288312725
-s296
-i<Foundation/Foundation.h>
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCNSStringCategory.m
-c000000004CCA17950000000000000317
-t1288312725
-s791
-i"RCNSStringCategory.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCOpenGLTexture3DCategory.h
-c000000004CCA22B400000000000001BB
-t1288315572
-s443
-i<Foundation/Foundation.h>
-i"OpenGLTexture3D.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCOpenGLTexture3DCategory.m
-c000000004CE5A6D10000000000000CF5
-t1290118865
-s3317
-i"RCOpenGLTexture3DCategory.h"
-i"RCPlanetVertex.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCSun2.h
-c000000004CDC62FE00000000000A0012
-t1289511678
-s655378
-i"OpenGLCommon.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCTestCelestialObjectCategory.h
-c000000004CCB253D00000000000001A1
-t1288381757
-s417
-i<Foundation/Foundation.h>
-i"RCCelestialObject.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCTestCelestialObjectCategory.m
-c000000004CD84A230000000000000709
-t1289243171
-s1801
-i"RCTestCelestialObjectCategory.h"
-i"RCPlanetVertex.h"
-i"Texture3AppDelegate.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCVenus.h
-c000000004CDC6F0500000000000A0007
-t1289514757
-s655367
-i"OpenGLCommon.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCeMoon.h
-c000000004CDC7A40000000000009FFFE
-t1289517632
-s655358
-i"OpenGLCommon.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Resources-iPad/MainWindow-iPad.xib
-c000000004C9D158300000000000059B0
-t1285363075
-s22960
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/SunTexture_2048.jpg
-c000000004CDC5C79000000000007E0AD
-t1289510009
-s516269
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch
-c000000004C9D158300000000000000D0
-t1285363075
-s208
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i"ConstantsAndMacros.h"
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app
-t1292262219
-s612
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app.dSYM
-t1291823154
-s102
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Info.plist
-t1291823142
-s858
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/MainWindow-iPad.nib
-t1291823143
-s1318
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/MainWindow.nib
-t1291823142
-s1294
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/PkgInfo
-t1291823142
-s8
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/ResourceRules.plist
-t1291823142
-s485
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/SunTexture_2048.jpg
-t1291823143
-s516269
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture3
-t1291823154
-s2757184
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/earthmapthumb.jpg
-t1291823142
-s43572
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/embedded.mobileprovision
-t1291823154
-s7221
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/jupiter.jpg
-t1291823143
-s37084
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/mars.jpg
-t1291823143
-s31576
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/mercurymapthumb.jpg
-t1291823142
-s63696
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/moonmapthumb.jpg
-t1291823142
-s49077
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/venusmapthumb.jpg
-t1291823142
-s50215
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/GLView.o
-t1291823144
-s51964
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/GLViewController.o
-t1291823144
-s62900
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/OpenGLTexture3D.o
-t1291823148
-s1351764
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCCamera.o
-t1291823153
-s54616
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCCelestialObject.o
-t1291823149
-s1393940
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCNSDataCategory.o
-t1291823144
-s7412
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCNSStringCategory.o
-t1291823144
-s7432
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCOpenGLTexture3DCategory.o
-t1291823153
-s1349076
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCTestCelestialObjectCategory.o
-t1291823153
-s1381328
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/Texture3.LinkFileList
-c000000004CDC893E0000000000000601
-t1289521470
-s1537
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/Texture3AppDelegate.o
-t1291823143
-s52936
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/main.o
-t1291823143
-s6452
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent
-t1291823154
-s414
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/earthmapthumb.jpg
-c000000004CA69088000000000000AA34
-t1285984392
-s43572
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/jupiter.jpg
-c000000004CE597FA00000000000090DC
-t1290115066
-s37084
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/main.m
-c000000004C9D15830000000000000164
-t1285363075
-s356
-i<UIKit/UIKit.h>
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/mars.jpg
-c000000004CE58D660000000000007B58
-t1290112358
-s31576
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/mercurymapthumb.jpg
-c000000004CDC6B2C000000000000F8D0
-t1289513772
-s63696
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/moonmapthumb.jpg
-c000000004CDC78C6000000000000BFB5
-t1289517254
-s49077
-
-N/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/venusmapthumb.jpg
-c000000004CDC6D7E000000000000C427
-t1289514366
-s50215
-
-N/Users/rcrebs/Dropbox/RCPlanets/Mars/RCMars.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/04C1D71E-4BF5-4B17-8D3C-0EBDAEEA0619.mobileprovision
-c000000004CFFA6B00000000000001C35
-t1291822768
-s7221
-
-N/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/AE01BC00-BAC9-49DD-B87D-1AFC00E0979E.mobileprovision
-c000000004C703C5C000000000000328A
-t1282423900
-s12938
-
-NTexture3-Info.plist
-c000000004CFFA3F100000000000003DF
-t1291822065
-s991
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies313955081#313955081#0(0"0(0#1#0"8609737792#0"0#
-
-CCodeSign /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app
-s313955017.179016
-e313955019.392717
-r1
-xCodeSign
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app
-o/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app: replacing existing signature
-lSLF07#2@42"CodeSign build/Debug-iphoneos/Texture3.app313955017#313955019#0(113"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app: replacing existing signature0(0#0#82"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app32932993188560964#692"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: RIley Crebs (CA2NW59SC7)" --resource-rules=/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/ResourceRules.plist --entitlements /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
-CCompileXIB /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/MainWindow.xib
-s313515942.312541
-e313515942.813885
-r1
-xCompileXIB
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib313515942#313515942#0(0"0(0#0#63"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/MainWindow.xib8608610976#573"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/MainWindow.nib /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Resources-iPad/MainWindow-iPad.xib
-s313515942.313405
-e313515943.161013
-r1
-xCompileXIB
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Resources-iPad/MainWindow-iPad.xib
-lSLF07#2@45"CompileXIB Resources-iPad/MainWindow-iPad.xib313515942#313515943#0(0"0(0#0#83"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Resources-iPad/MainWindow-iPad.xib8606519904#598"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/MainWindow-iPad.nib /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Resources-iPad/MainWindow-iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCpResource build/Debug-iphoneos/Texture3.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-s311214270.658757
-e311214270.691063
-r1
-xCpResource
-xbuild/Debug-iphoneos/Texture3.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist311214270#311214270#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist8621945568#501"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
-CCpResource build/Debug-iphoneos/Texture3.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-r0
-
-CCpResource build/Debug-iphoneos/Texture3.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-s313515942.090585
-e313515942.312447
-r1
-xCpResource
-xbuild/Debug-iphoneos/Texture3.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist313515942#313515942#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist3419159298929816064#515"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
-CCpResource build/Debug-iphoneos/Texture3.app/SunTexture_2048.jpg SunTexture_2048.jpg
-s313515942.815228
-e313515943.166432
-r1
-xCpResource
-xbuild/Debug-iphoneos/Texture3.app/SunTexture_2048.jpg
-xSunTexture_2048.jpg
-lSLF07#2@24"Copy SunTexture_2048.jpg313515942#313515943#0(0"0(0#0#68"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/SunTexture_2048.jpg8616547648#494"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/SunTexture_2048.jpg /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
-CCpResource build/Debug-iphoneos/Texture3.app/earthmapthumb.jpg earthmapthumb.jpg
-s313515942.813996
-e313515943.136472
-r1
-xCpResource
-xbuild/Debug-iphoneos/Texture3.app/earthmapthumb.jpg
-xearthmapthumb.jpg
-lSLF07#2@22"Copy earthmapthumb.jpg313515942#313515943#0(0"0(0#0#66"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/earthmapthumb.jpg8617172064#492"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/earthmapthumb.jpg /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
-CCpResource build/Debug-iphoneos/Texture3.app/jupiter.jpg jupiter.jpg
-s313515942.824091
-e313515943.139294
-r1
-xCpResource
-xbuild/Debug-iphoneos/Texture3.app/jupiter.jpg
-xjupiter.jpg
-lSLF07#2@16"Copy jupiter.jpg313515942#313515943#0(0"0(0#0#60"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/jupiter.jpg8610792192#486"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/jupiter.jpg /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
-CCpResource build/Debug-iphoneos/Texture3.app/mars.jpg mars.jpg
-s313515942.822299
-e313515943.009824
-r1
-xCpResource
-xbuild/Debug-iphoneos/Texture3.app/mars.jpg
-xmars.jpg
-lSLF07#2@13"Copy mars.jpg313515942#313515943#0(0"0(0#0#57"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/mars.jpg8611063296#483"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/mars.jpg /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
-CCpResource build/Debug-iphoneos/Texture3.app/mercurymapthumb.jpg mercurymapthumb.jpg
-s313515942.817010
-e313515943.140045
-r1
-xCpResource
-xbuild/Debug-iphoneos/Texture3.app/mercurymapthumb.jpg
-xmercurymapthumb.jpg
-lSLF07#2@24"Copy mercurymapthumb.jpg313515942#313515943#0(0"0(0#0#68"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/mercurymapthumb.jpg8616346272#494"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/mercurymapthumb.jpg /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
-CCpResource build/Debug-iphoneos/Texture3.app/moonmapthumb.jpg moonmapthumb.jpg
-s313515942.820534
-e313515943.138410
-r1
-xCpResource
-xbuild/Debug-iphoneos/Texture3.app/moonmapthumb.jpg
-xmoonmapthumb.jpg
-lSLF07#2@21"Copy moonmapthumb.jpg313515942#313515943#0(0"0(0#0#65"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/moonmapthumb.jpg8611840512#491"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/moonmapthumb.jpg /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
-CCpResource build/Debug-iphoneos/Texture3.app/venusmapthumb.jpg venusmapthumb.jpg
-s313515942.818780
-e313515943.137494
-r1
-xCpResource
-xbuild/Debug-iphoneos/Texture3.app/venusmapthumb.jpg
-xvenusmapthumb.jpg
-lSLF07#2@22"Copy venusmapthumb.jpg313515942#313515943#0(0"0(0#0#66"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/venusmapthumb.jpg8613316896#492"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/venusmapthumb.jpg /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/GLView.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515943.837195
-e313515944.192406
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/GLView.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11814] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
-lSLF07#2@91"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLView.m313515943#313515944#0(91"distcc[11814] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#65"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLView.m8610720352#1986"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLView.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/GLView.o0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/GLViewController.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515943.918623
-e313515944.309648
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/GLViewController.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11820] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
-lSLF07#2@101"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLViewController.m313515943#313515944#0(91"distcc[11820] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#75"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLViewController.m8609944672#2006"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/GLViewController.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/GLViewController.o0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/OpenGLTexture3D.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/OpenGLTexture3D.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515944.192521
-e313515948.656221
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/OpenGLTexture3D.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/OpenGLTexture3D.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11826] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
-lSLF07#2@100"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/OpenGLTexture3D.m313515944#313515948#0(91"distcc[11826] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#74"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/OpenGLTexture3D.m8611862336#2004"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/OpenGLTexture3D.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/OpenGLTexture3D.o0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCCamera.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCCamera.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515953.327370
-e313515953.670781
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCCamera.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCCamera.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11909] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
-lSLF07#2@85"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCCamera.m313515953#313515953#0(91"distcc[11909] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#59"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCCamera.m8610166368#1982"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCCamera.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCCamera.o0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCCelestialObject.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCCelestialObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515944.856879
-e313515949.056453
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCCelestialObject.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCCelestialObject.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11887] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
-lSLF07#2@102"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCCelestialObject.m313515944#313515949#0(91"distcc[11887] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#76"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCCelestialObject.m8610197792#2008"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCCelestialObject.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCCelestialObject.o0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCNSDataCategory.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCNSDataCategory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515944.309774
-e313515944.590668
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCNSDataCategory.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCNSDataCategory.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11832] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
-lSLF07#2@101"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCNSDataCategory.m313515944#313515944#0(91"distcc[11832] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#75"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCNSDataCategory.m8610887744#2006"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/RCNSDataCategory.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCNSDataCategory.o0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCNSStringCategory.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCNSStringCategory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515944.590793
-e313515944.856766
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCNSStringCategory.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCNSStringCategory.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11853] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
-lSLF07#2@95"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCNSStringCategory.m313515944#313515944#0(91"distcc[11853] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#69"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCNSStringCategory.m8613228192#2002"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCNSStringCategory.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCNSStringCategory.o0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCOpenGLTexture3DCategory.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCOpenGLTexture3DCategory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515948.656425
-e313515953.327126
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCOpenGLTexture3DCategory.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCOpenGLTexture3DCategory.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11894] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
-lSLF07#2@102"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCOpenGLTexture3DCategory.m313515948#313515953#0(91"distcc[11894] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#76"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCOpenGLTexture3DCategory.m8608020960#2016"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCOpenGLTexture3DCategory.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCOpenGLTexture3DCategory.o0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCTestCelestialObjectCategory.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCTestCelestialObjectCategory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515949.056568
-e313515953.635008
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCTestCelestialObjectCategory.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCTestCelestialObjectCategory.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11900] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
-lSLF07#2@106"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCTestCelestialObjectCategory.m313515949#313515953#0(91"distcc[11900] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#80"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCTestCelestialObjectCategory.m8616384640#2024"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/RCTestCelestialObjectCategory.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/RCTestCelestialObjectCategory.o0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/Texture3AppDelegate.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/Texture3AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515943.182460
-e313515943.918497
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/Texture3AppDelegate.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/Texture3AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11799] ERROR: nonblocking connect to 127.0.0.1:3632 failed: Connection refused
-odistcc[11799] Warning: failed to distribute /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/Texture3AppDelegate.m to localhost:3632/2, running locally instead
-lSLF07#2@104"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/Texture3AppDelegate.m313515943#313515943#0(254"distcc[11799] ERROR: nonblocking connect to 127.0.0.1:3632 failed: Connection refuseddistcc[11799] Warning: failed to distribute /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/Texture3AppDelegate.m to localhost:3632/2, running locally instead0(0#0#78"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/Texture3AppDelegate.m8617076128#2012"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Classes/Texture3AppDelegate.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/Texture3AppDelegate.o0#
-
-CDistributed-CompileC build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/main.o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s313515943.166641
-e313515943.836958
-r1
-xDistributed-CompileC
-xbuild/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/main.o
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-odistcc[11796] ERROR: nonblocking connect to 127.0.0.1:3632 failed: Connection refused
-odistcc[11796] Warning: failed to distribute /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/main.m to localhost:3632/2, running locally instead
-lSLF07#2@81"Distribute compilation of /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/main.m313515943#313515943#0(231"distcc[11796] ERROR: nonblocking connect to 127.0.0.1:3632 failed: Connection refuseddistcc[11796] Warning: failed to distribute /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/main.m to localhost:3632/2, running locally instead0(0#0#55"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/main.m8610008608#1974"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664) (dot 2)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-generated-files.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-own-target-headers.hmap -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-all-target-headers.hmap -iquote /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3-project-headers.hmap -fpch-preprocess -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/include -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources/armv7 -I/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/DerivedSources -include /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3_Prefix.pch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/main.m -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/main.o0#
-
-CGenerateDSYMFile /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app.dSYM /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture3
-s313515954.204687
-e313515954.251599
-r1
-xGenerateDSYMFile
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app.dSYM
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture3
-lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/Texture3.app.dSYM build/Debug-iphoneos/Texture3.app/Texture3313515954#313515954#0(0"0(0#0#91"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture38613563360#395"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture3 -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app.dSYM0#
-
-CLd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture3 normal armv7
-s313515953.670898
-e313515954.204553
-r1
-xLd
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture3
-xnormal
-xarmv7
-lSLF07#2@96"Link /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture3313515953#313515954#0(0"0(0#0#0"8608222144#919"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -F/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos -filelist /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Objects-normal/armv7/Texture3.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Texture30#
-
-CProcessInfoPlistFile /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Info.plist Texture3-Info.plist
-s313515942.141613
-e313515942.238125
-r1
-xProcessInfoPlistFile
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Info.plist
-xTexture3-Info.plist
-lSLF07#2@27"Process Texture3-Info.plist313515942#313515942#0(0"0(0#0#68"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/Texture3-Info.plist8614049472#606"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Texture3-Info.plist -genpkginfo /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/ResourceRules.plist -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/Info.plist0#
-
-CProcessProductPackaging "/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/04C1D71E-4BF5-4B17-8D3C-0EBDAEEA0619.mobileprovision" /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/embedded.mobileprovision
-s313515954.251724
-e313515954.303849
-r1
-xProcessProductPackaging
-x/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/04C1D71E-4BF5-4B17-8D3C-0EBDAEEA0619.mobileprovision
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/embedded.mobileprovision
-lSLF07#2@194"ProcessProductPackaging "/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/04C1D71E-4BF5-4B17-8D3C-0EBDAEEA0619.mobileprovision" build/Debug-iphoneos/Texture3.app/embedded.mobileprovision313515954#313515954#0(0"0(0#0#107"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/embedded.mobileprovision8610896160#445"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/04C1D71E-4BF5-4B17-8D3C-0EBDAEEA0619.mobileprovision" -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/embedded.mobileprovision0#
-
-CProcessProductPackaging "/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/AE01BC00-BAC9-49DD-B87D-1AFC00E0979E.mobileprovision" /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/embedded.mobileprovision
-s311214279.669007
-e311214279.670736
-r1
-xProcessProductPackaging
-x/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/AE01BC00-BAC9-49DD-B87D-1AFC00E0979E.mobileprovision
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/embedded.mobileprovision
-lSLF07#2@194"ProcessProductPackaging "/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/AE01BC00-BAC9-49DD-B87D-1AFC00E0979E.mobileprovision" build/Debug-iphoneos/Texture3.app/embedded.mobileprovision311214279#311214279#0(0"0(0#0#107"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/embedded.mobileprovision8623132000#445"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/rcrebs/Library/MobileDevice/Provisioning Profiles/AE01BC00-BAC9-49DD-B87D-1AFC00E0979E.mobileprovision" -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent
-s311214279.675786
-e311214279.701186
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent
-lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent311214279#311214279#0(0"0(0#0#114"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent8620749024#455"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent
-r0
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent
-s313515954.313598
-e313515954.331099
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent
-lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent313515954#313515954#0(0"0(0#0#114"/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent8608635840#455"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Texture3.build/Debug-iphoneos/Texture3.build/Texture3.xcent0#
-
-CTouch /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app
-s313515954.304003
-e313515954.313459
-r1
-xTouch
-x/Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app
-lSLF07#2@88"Touch /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app313515954#313515954#0(0"0(0#0#0"8610560640#285"    cd /Users/rcrebs/Documents/DevSpace/iPhone/Texture3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/rcrebs/Documents/DevSpace/iPhone/Texture3/build/Debug-iphoneos/Texture3.app0#
-
