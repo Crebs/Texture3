@@ -1,5 +1,5 @@
 Please make this better.  
 
-To create the planets I used Blender.  I then used a python script to export to a .h file.
+To create the planets I used Blender.  I then used a python script to export to a .h file. This python script is under in the repository under scripts/
 
 Physics engine needs work.
